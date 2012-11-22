@@ -1,0 +1,3 @@
+[submodule "lib/quest"]
+	path = lib/quest
+	url = git://github.com/Questify/api-quest.git
