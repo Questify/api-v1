@@ -7,8 +7,8 @@ express   = require 'express'
 # Initiate the api´s
 
 api = module.exports = express()
-api.quest     = require 'quest'
-api.location  = require 'location'
+api.quest     = require './api/quest'
+api.location  = require './api/location'
 
 
 # # Api's available

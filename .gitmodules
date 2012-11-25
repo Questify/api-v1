@@ -1,3 +1,6 @@
-[submodule "lib/quest"]
-	path = lib/quest
-	url = git://github.com/Questify/api-quest.git
+[submodule "api/location"]
+	path = api/location
+	url = git@github.com:Questify/api-location.git
+[submodule "api/quest"]
+	path = api/quest
+	url = git@github.com:Questify/api-quest.git

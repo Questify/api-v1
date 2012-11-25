@@ -7,7 +7,7 @@
   "scripts": {
     "preinstall": "sudo easy_install pygments",
     "prepublish": "node_modules/.bin/docco $(ls **/*.coffee | grep -v node_modules)",
-    "start": "export NODE_PATH=./lib && node_modules/.bin/node-dev api.coffee",
+    "start": "node_modules/.bin/node-dev api.coffee",
     "test": "node_modules/.bin/mocha -r should -R spec --compilers coffee:coffee-script"
   },
   "devDependencies": {
